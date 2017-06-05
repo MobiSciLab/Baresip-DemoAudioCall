@@ -1,0 +1,15 @@
+Executable : /Users/caominhvu/Library/Android/sdk/cmake/3.6.3155560/bin/cmake
+arguments : 
+-H/Users/caominhvu/Desktop/Demo/AndroidBaresipDemo/baresiplib
+-B/Users/caominhvu/Desktop/Demo/AndroidBaresipDemo/baresiplib/.externalNativeBuild/cmake/debug/armeabi-v7a
+-GAndroid Gradle - Ninja
+-DANDROID_ABI=armeabi-v7a
+-DANDROID_NDK=/Users/caominhvu/Library/Android/sdk/ndk-bundle
+-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=/Users/caominhvu/Desktop/Demo/AndroidBaresipDemo/baresiplib/build/intermediates/cmake/debug/obj/armeabi-v7a
+-DCMAKE_BUILD_TYPE=Debug
+-DCMAKE_MAKE_PROGRAM=/Users/caominhvu/Library/Android/sdk/cmake/3.6.3155560/bin/ninja
+-DCMAKE_TOOLCHAIN_FILE=/Users/caominhvu/Library/Android/sdk/ndk-bundle/build/cmake/android.toolchain.cmake
+-DANDROID_PLATFORM=android-19
+-DANDROID_PLATFORM_LEVEL=19 -DANDROID_ARM_NEON=TRUE
+jvmArgs : 
+

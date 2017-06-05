@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="net.edge_works.androidbaresip.MainActivity"
+    android:padding="6dp"
+    >
+
+    <TableLayout android:id="@+id/tl_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sip Server:" />
+
+            <EditText android:id="@+id/edt_sip_server"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="123.31.47.34" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ICE Server:" />
+
+            <EditText android:id="@+id/edt_ice_server"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="52.76.233.50" />
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="User Agent:" />
+
+            <EditText android:id="@+id/edt_agent_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="test_A" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Password:" />
+
+            <EditText android:id="@+id/edt_agent_password"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="testPASSa!" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Contact:" />
+
+            <EditText android:id="@+id/edt_contact"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="test_B" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mobile:" />
+
+            <EditText android:id="@+id/edt_mobile"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="+84977759403" />
+        </TableRow>
+    </TableLayout>
+
+    <TextView android:id="@+id/tv_event"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tl_info"
+        android:layout_centerHorizontal="true"
+        android:textColor="@android:color/holo_green_light"
+        android:text="NO EVENT"
+        />
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_event"
+        >
+        <TableRow>
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="User Agent"
+                android:onClick="onClickCreateUserAgent"
+                />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Audio call"
+                android:onClick="onClickStartAudioCall"
+                />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Landline"
+                android:visibility="gone"
+                android:onClick="onClickStartLandline"
+                />
+        </TableRow>
+
+        <TableRow>
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Video Call"
+                android:onClick="onClickVideoCall"
+                android:visibility="gone"
+                />
+
+        </TableRow>
+
+    </TableLayout>
+
+</RelativeLayout>

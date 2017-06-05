@@ -1,0 +1,155 @@
+celt/arm/celt_neon_intr.lo: celt/arm/celt_neon_intr.c config.h \
+ /Users/caominhvu/Library/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/include/arm_neon.h \
+ /Users/caominhvu/Library/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/include/stdint.h \
+ /Users/caominhvu/Library/Android/sdk/ndk-bundle/platforms/android-17/arch-arm/usr/include/stdint.h \
+ /Users/caominhvu/Library/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/include/stddef.h \
+ /Users/caominhvu/Library/Android/sdk/ndk-bundle/platforms/android-17/arch-arm/usr/include/sys/_types.h \
+ /Users/caominhvu/Library/Android/sdk/ndk-bundle/platforms/android-17/arch-arm/usr/include/machine/_types.h \
+ /Users/caominhvu/Library/Android/sdk/ndk-bundle/platforms/android-17/arch-arm/usr/include/sys/_wchar_limits.h \
+ /Users/caominhvu/Library/Android/sdk/ndk-bundle/platforms/android-17/arch-arm/usr/include/android/api-level.h \
+ celt/arm/../pitch.h celt/arm/../modes.h include/opus_types.h \
+ celt/arm/../celt.h include/opus_defines.h include/opus_types.h \
+ include/opus_custom.h include/opus_defines.h celt/arm/../entenc.h \
+ celt/arm/../entcode.h \
+ /Users/caominhvu/Library/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/include-fixed/limits.h \
+ /Users/caominhvu/Library/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/include-fixed/syslimits.h \
+ /Users/caominhvu/Library/Android/sdk/ndk-bundle/platforms/android-17/arch-arm/usr/include/limits.h \
+ /Users/caominhvu/Library/Android/sdk/ndk-bundle/platforms/android-17/arch-arm/usr/include/sys/cdefs.h \
+ /Users/caominhvu/Library/Android/sdk/ndk-bundle/platforms/android-17/arch-arm/usr/include/sys/cdefs_elf.h \
+ /Users/caominhvu/Library/Android/sdk/ndk-bundle/platforms/android-17/arch-arm/usr/include/sys/limits.h \
+ /Users/caominhvu/Library/Android/sdk/ndk-bundle/platforms/android-17/arch-arm/usr/include/linux/limits.h \
+ /Users/caominhvu/Library/Android/sdk/ndk-bundle/platforms/android-17/arch-arm/usr/include/machine/internal_types.h \
+ /Users/caominhvu/Library/Android/sdk/ndk-bundle/platforms/android-17/arch-arm/usr/include/machine/limits.h \
+ /Users/caominhvu/Library/Android/sdk/ndk-bundle/platforms/android-17/arch-arm/usr/include/sys/syslimits.h \
+ /Users/caominhvu/Library/Android/sdk/ndk-bundle/platforms/android-17/arch-arm/usr/include/asm/page.h \
+ celt/arm/../ecintrin.h \
+ /Users/caominhvu/Library/Android/sdk/ndk-bundle/platforms/android-17/arch-arm/usr/include/math.h \
+ /Users/caominhvu/Library/Android/sdk/ndk-bundle/platforms/android-17/arch-arm/usr/include/sys/types.h \
+ /Users/caominhvu/Library/Android/sdk/ndk-bundle/platforms/android-17/arch-arm/usr/include/linux/posix_types.h \
+ /Users/caominhvu/Library/Android/sdk/ndk-bundle/platforms/android-17/arch-arm/usr/include/linux/stddef.h \
+ /Users/caominhvu/Library/Android/sdk/ndk-bundle/platforms/android-17/arch-arm/usr/include/linux/compiler.h \
+ /Users/caominhvu/Library/Android/sdk/ndk-bundle/platforms/android-17/arch-arm/usr/include/asm/posix_types.h \
+ /Users/caominhvu/Library/Android/sdk/ndk-bundle/platforms/android-17/arch-arm/usr/include/asm/types.h \
+ /Users/caominhvu/Library/Android/sdk/ndk-bundle/platforms/android-17/arch-arm/usr/include/linux/types.h \
+ /Users/caominhvu/Library/Android/sdk/ndk-bundle/platforms/android-17/arch-arm/usr/include/machine/kernel.h \
+ /Users/caominhvu/Library/Android/sdk/ndk-bundle/platforms/android-17/arch-arm/usr/include/sys/sysmacros.h \
+ celt/arm/../arch.h celt/arm/../entdec.h celt/arm/../mdct.h \
+ celt/arm/../kiss_fft.h \
+ /Users/caominhvu/Library/Android/sdk/ndk-bundle/platforms/android-17/arch-arm/usr/include/stdlib.h \
+ /Users/caominhvu/Library/Android/sdk/ndk-bundle/platforms/android-17/arch-arm/usr/include/string.h \
+ /Users/caominhvu/Library/Android/sdk/ndk-bundle/platforms/android-17/arch-arm/usr/include/malloc.h \
+ /Users/caominhvu/Library/Android/sdk/ndk-bundle/platforms/android-17/arch-arm/usr/include/alloca.h \
+ /Users/caominhvu/Library/Android/sdk/ndk-bundle/platforms/android-17/arch-arm/usr/include/strings.h \
+ /Users/caominhvu/Library/Android/sdk/ndk-bundle/platforms/android-17/arch-arm/usr/include/memory.h \
+ celt/arm/../cpu_support.h celt/arm/../arm/armcpu.h \
+ celt/arm/../arm/pitch_arm.h celt/arm/../arm/armcpu.h
+
+config.h:
+
+/Users/caominhvu/Library/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/include/arm_neon.h:
+
+/Users/caominhvu/Library/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/include/stdint.h:
+
+/Users/caominhvu/Library/Android/sdk/ndk-bundle/platforms/android-17/arch-arm/usr/include/stdint.h:
+
+/Users/caominhvu/Library/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/include/stddef.h:
+
+/Users/caominhvu/Library/Android/sdk/ndk-bundle/platforms/android-17/arch-arm/usr/include/sys/_types.h:
+
+/Users/caominhvu/Library/Android/sdk/ndk-bundle/platforms/android-17/arch-arm/usr/include/machine/_types.h:
+
+/Users/caominhvu/Library/Android/sdk/ndk-bundle/platforms/android-17/arch-arm/usr/include/sys/_wchar_limits.h:
+
+/Users/caominhvu/Library/Android/sdk/ndk-bundle/platforms/android-17/arch-arm/usr/include/android/api-level.h:
+
+celt/arm/../pitch.h:
+
+celt/arm/../modes.h:
+
+include/opus_types.h:
+
+celt/arm/../celt.h:
+
+include/opus_defines.h:
+
+include/opus_types.h:
+
+include/opus_custom.h:
+
+include/opus_defines.h:
+
+celt/arm/../entenc.h:
+
+celt/arm/../entcode.h:
+
+/Users/caominhvu/Library/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/include-fixed/limits.h:
+
+/Users/caominhvu/Library/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/include-fixed/syslimits.h:
+
+/Users/caominhvu/Library/Android/sdk/ndk-bundle/platforms/android-17/arch-arm/usr/include/limits.h:
+
+/Users/caominhvu/Library/Android/sdk/ndk-bundle/platforms/android-17/arch-arm/usr/include/sys/cdefs.h:
+
+/Users/caominhvu/Library/Android/sdk/ndk-bundle/platforms/android-17/arch-arm/usr/include/sys/cdefs_elf.h:
+
+/Users/caominhvu/Library/Android/sdk/ndk-bundle/platforms/android-17/arch-arm/usr/include/sys/limits.h:
+
+/Users/caominhvu/Library/Android/sdk/ndk-bundle/platforms/android-17/arch-arm/usr/include/linux/limits.h:
+
+/Users/caominhvu/Library/Android/sdk/ndk-bundle/platforms/android-17/arch-arm/usr/include/machine/internal_types.h:
+
+/Users/caominhvu/Library/Android/sdk/ndk-bundle/platforms/android-17/arch-arm/usr/include/machine/limits.h:
+
+/Users/caominhvu/Library/Android/sdk/ndk-bundle/platforms/android-17/arch-arm/usr/include/sys/syslimits.h:
+
+/Users/caominhvu/Library/Android/sdk/ndk-bundle/platforms/android-17/arch-arm/usr/include/asm/page.h:
+
+celt/arm/../ecintrin.h:
+
+/Users/caominhvu/Library/Android/sdk/ndk-bundle/platforms/android-17/arch-arm/usr/include/math.h:
+
+/Users/caominhvu/Library/Android/sdk/ndk-bundle/platforms/android-17/arch-arm/usr/include/sys/types.h:
+
+/Users/caominhvu/Library/Android/sdk/ndk-bundle/platforms/android-17/arch-arm/usr/include/linux/posix_types.h:
+
+/Users/caominhvu/Library/Android/sdk/ndk-bundle/platforms/android-17/arch-arm/usr/include/linux/stddef.h:
+
+/Users/caominhvu/Library/Android/sdk/ndk-bundle/platforms/android-17/arch-arm/usr/include/linux/compiler.h:
+
+/Users/caominhvu/Library/Android/sdk/ndk-bundle/platforms/android-17/arch-arm/usr/include/asm/posix_types.h:
+
+/Users/caominhvu/Library/Android/sdk/ndk-bundle/platforms/android-17/arch-arm/usr/include/asm/types.h:
+
+/Users/caominhvu/Library/Android/sdk/ndk-bundle/platforms/android-17/arch-arm/usr/include/linux/types.h:
+
+/Users/caominhvu/Library/Android/sdk/ndk-bundle/platforms/android-17/arch-arm/usr/include/machine/kernel.h:
+
+/Users/caominhvu/Library/Android/sdk/ndk-bundle/platforms/android-17/arch-arm/usr/include/sys/sysmacros.h:
+
+celt/arm/../arch.h:
+
+celt/arm/../entdec.h:
+
+celt/arm/../mdct.h:
+
+celt/arm/../kiss_fft.h:
+
+/Users/caominhvu/Library/Android/sdk/ndk-bundle/platforms/android-17/arch-arm/usr/include/stdlib.h:
+
+/Users/caominhvu/Library/Android/sdk/ndk-bundle/platforms/android-17/arch-arm/usr/include/string.h:
+
+/Users/caominhvu/Library/Android/sdk/ndk-bundle/platforms/android-17/arch-arm/usr/include/malloc.h:
+
+/Users/caominhvu/Library/Android/sdk/ndk-bundle/platforms/android-17/arch-arm/usr/include/alloca.h:
+
+/Users/caominhvu/Library/Android/sdk/ndk-bundle/platforms/android-17/arch-arm/usr/include/strings.h:
+
+/Users/caominhvu/Library/Android/sdk/ndk-bundle/platforms/android-17/arch-arm/usr/include/memory.h:
+
+celt/arm/../cpu_support.h:
+
+celt/arm/../arm/armcpu.h:
+
+celt/arm/../arm/pitch_arm.h:
+
+celt/arm/../arm/armcpu.h:

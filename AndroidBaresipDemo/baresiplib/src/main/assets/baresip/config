@@ -1,0 +1,172 @@
+#
+# baresip configuration
+#
+
+#------------------------------------------------------------------------------
+
+# Core
+poll_method		epoll		# poll, select, epoll ..
+
+# Input
+input_device		/dev/event0
+input_port		5555
+
+# SIP
+sip_trans_bsize		128
+#sip_listen		0.0.0.0:5060
+#sip_certificate	rootca.pem
+
+# Audio
+audio_player    opensles
+audio_source    opensles
+audio_alert     opensles
+audio_srate		8000-48000
+audio_channels		1
+ausrc_srate		48000
+auplay_srate		48000
+ausrc_channels		1
+auplay_channels		1
+
+# Video
+video_source		myvidsrc,nil
+video_display		myvidisp
+video_size		    320x240
+video_bitrate		12000000
+video_fps		    29
+
+# AVT - Audio/Video Transport
+rtp_tos			184
+rtp_ports		10000-50000
+#rtp_bandwidth		512-1024 # [kbit/s]
+rtcp_enable		yes
+rtcp_mux		no
+jitter_buffer_delay	0-2		# frames
+rtp_stats		yes
+
+# Network
+#dns_server		10.0.0.1:53
+#net_interface		en0
+
+# BFCP
+#bfcp_proto		udp
+
+#------------------------------------------------------------------------------
+# Modules
+
+#module_path		/lib/baresip/modules
+
+# UI Modules
+#module			stdio.so
+#module			cons.so
+#module			evdev.so
+#module			httpd.so
+
+# Audio codec Modules (in order)
+module			opus.so
+#module			silk.so
+#module			amr.so
+module			g711.so
+#module			g7221.so
+#module			g722.so
+#module			g726.so
+#module			gsm.so
+#module			l16.so
+#module			speex.so
+#module			bv32.so
+
+# Audio filter Modules (in encoding order)
+module			vumeter.so
+#module			sndfile.so
+#module			speex_aec.so
+#module			speex_pp.so
+#module			plc.so
+
+# Audio driver Modules
+module 			opensles.so
+#module			coreaudio.so
+#module			audiounit.so
+#module			portaudio.so
+
+# Video codec Modules (in order)
+module			avcodec.so
+#module			vp8.so
+
+# Video filter Modules (in encoding order)
+#module			selfview.so
+
+# Video source modules
+#module         avformat.so
+#module			avcapture.so
+#module			x11grab.so
+#module			cairo.so
+
+# Video display modules
+#module		    opengles.so
+#module			x11.so
+#module			sdl2.so
+
+# get_current_audio_stream/get_current_video_stream source modules
+#module			rst.so
+#module			gst.so
+
+# Media NAT modules
+module			stun.so
+module			turn.so
+module			ice.so
+#module			natpmp.so
+
+# Media encryption modules
+#module			srtp.so
+#module			dtls_srtp.so
+module         zrtp.so
+
+
+#------------------------------------------------------------------------------
+# Temporary Modules (loaded then unloaded)
+
+#module_tmp		uuid.so
+#module_tmp		account.so
+
+
+#------------------------------------------------------------------------------
+# Application Modules
+
+#module_app		auloop.so
+#module_app		contact.so
+#module_app		menu.so
+#module_app		mwi.so
+#module_app		natbd.so
+#module_app		presence.so
+#module_app		syslog.so
+#module_app		vidloop.so
+
+
+#------------------------------------------------------------------------------
+# Module parameters
+
+
+# Speex codec parameters
+speex_quality		10 # 0-10
+speex_complexity	10 # 0-10
+speex_enhancement	1 # 0-1
+#speex_mode_nb		3 # 1-6
+#speex_mode_wb		6 # 1-6
+speex_vbr		0 # Variable Bit Rate 0-1
+speex_vad		1 # Voice Activity Detection 0-1
+speex_agc_level		16000
+
+# NAT Behavior Discovery
+natbd_server		creytiv.com
+natbd_interval		600		# in seconds
+
+# Selfview
+#video_selfview		pip # {window,pip}
+#selfview_size		128x128
+
+# ICE
+ice_turn		yes
+ice_debug		yes
+ice_nomination	regular	# {regular,aggressive}
+ice_mode		full	# {full,lite}
+
+rtp_timeout     7200

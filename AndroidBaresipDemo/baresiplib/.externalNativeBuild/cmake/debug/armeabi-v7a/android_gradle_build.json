@@ -1,0 +1,183 @@
+
+{
+	"buildFiles" : 
+	[
+		"/Users/caominhvu/Desktop/Demo/AndroidBaresipDemo/baresiplib/CMakeLists.txt"
+	],
+	"cFileExtensions" : [ "c" ],
+	"cleanCommands" : 
+	[
+		"/Users/caominhvu/Library/Android/sdk/cmake/3.6.3155560/bin/cmake --build /Users/caominhvu/Desktop/Demo/AndroidBaresipDemo/baresiplib/.externalNativeBuild/cmake/debug/armeabi-v7a --target clean"
+	],
+	"libraries" : 
+	{
+		"baresipwrapper-Debug-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "baresipwrapper",
+			"buildCommand" : "/Users/caominhvu/Library/Android/sdk/cmake/3.6.3155560/bin/cmake --build /Users/caominhvu/Desktop/Demo/AndroidBaresipDemo/baresiplib/.externalNativeBuild/cmake/debug/armeabi-v7a --target baresipwrapper",
+			"buildType" : "debug",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=/Users/caominhvu/Library/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/caominhvu/Library/Android/sdk/ndk-bundle/platforms/android-19/arch-arm -DANDROID=1 -DARCH=\\\"arm\\\" -DDEBUG_LEVEL=1 -DHAVE_EPOLL -DHAVE_FORK -DHAVE_GAI_STRERROR -DHAVE_INET6 -DHAVE_INET_NTOP -DHAVE_INTTYPES_H -DHAVE_NEON=1 -DHAVE_NET_ROUTE_H -DHAVE_POLL -DHAVE_PTHREAD -DHAVE_PWD_H -DHAVE_SELECT -DHAVE_SELECT_H -DHAVE_SETRLIMIT -DHAVE_SIGNAL -DHAVE_SPEEXDSP -DHAVE_STRERROR_R -DHAVE_STRINGS_H -DHAVE_SYSLOG -DHAVE_SYS_TIME_H -DHAVE_UNAME -DHAVE_UNISTD_H -DUSE_AVFORMAT -DUSE_DTLS -DUSE_DTLS_SRTP -DUSE_G711 -DUSE_KISS_FFT -DUSE_OPENSSL_DTLS -DUSE_OPENSSL_SRTP -DUSE_SPEEX_AEC -DUSE_X264 -DUSE_ZLIB -DUSE_ZRTP -DZRTP_DEBUG -DZRTP_DEBUG_SRTP_KEYS -Dbaresipwrapper_EXPORTS -I../../../../src/main/cpp/re/include -I../../../../src/main/cpp/rem/include -I../../../../src/main/cpp/opus/include -I../../../../src/main/cpp/zrtp/third_party/bgaes -I../../../../src/main/cpp/zrtp/third_party/bnlib -I../../../../src/main/cpp/zrtp/include -I../../../../src/main/cpp/ffmpeg/include -I../../../../src/main/cpp/x264/include -I../../../../src/main/cpp/speexdsp/include -I../../../../src/main/cpp/baresip/include  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info -O0 -fno-limit-debug-info  -fPIC   -fPIC -mfpu=neon    -c ",
+					"src" : "/Users/caominhvu/Desktop/Demo/AndroidBaresipDemo/baresiplib/src/main/cpp/baresip_helper.c",
+					"workingDirectory" : "/Users/caominhvu/Desktop/Demo/AndroidBaresipDemo/baresiplib/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=/Users/caominhvu/Library/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/caominhvu/Library/Android/sdk/ndk-bundle/platforms/android-19/arch-arm -DANDROID=1 -DARCH=\\\"arm\\\" -DDEBUG_LEVEL=1 -DHAVE_EPOLL -DHAVE_FORK -DHAVE_GAI_STRERROR -DHAVE_INET6 -DHAVE_INET_NTOP -DHAVE_INTTYPES_H -DHAVE_NEON=1 -DHAVE_NET_ROUTE_H -DHAVE_POLL -DHAVE_PTHREAD -DHAVE_PWD_H -DHAVE_SELECT -DHAVE_SELECT_H -DHAVE_SETRLIMIT -DHAVE_SIGNAL -DHAVE_SPEEXDSP -DHAVE_STRERROR_R -DHAVE_STRINGS_H -DHAVE_SYSLOG -DHAVE_SYS_TIME_H -DHAVE_UNAME -DHAVE_UNISTD_H -DUSE_AVFORMAT -DUSE_DTLS -DUSE_DTLS_SRTP -DUSE_G711 -DUSE_KISS_FFT -DUSE_OPENSSL_DTLS -DUSE_OPENSSL_SRTP -DUSE_SPEEX_AEC -DUSE_X264 -DUSE_ZLIB -DUSE_ZRTP -DZRTP_DEBUG -DZRTP_DEBUG_SRTP_KEYS -Dbaresipwrapper_EXPORTS -I../../../../src/main/cpp/re/include -I../../../../src/main/cpp/rem/include -I../../../../src/main/cpp/opus/include -I../../../../src/main/cpp/zrtp/third_party/bgaes -I../../../../src/main/cpp/zrtp/third_party/bnlib -I../../../../src/main/cpp/zrtp/include -I../../../../src/main/cpp/ffmpeg/include -I../../../../src/main/cpp/x264/include -I../../../../src/main/cpp/speexdsp/include -I../../../../src/main/cpp/baresip/include  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info -O0 -fno-limit-debug-info  -fPIC   -fPIC -mfpu=neon    -c ",
+					"src" : "/Users/caominhvu/Desktop/Demo/AndroidBaresipDemo/baresiplib/src/main/cpp/baresipwrapper.c",
+					"workingDirectory" : "/Users/caominhvu/Desktop/Demo/AndroidBaresipDemo/baresiplib/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				}
+			],
+			"output" : "/Users/caominhvu/Desktop/Demo/AndroidBaresipDemo/baresiplib/build/intermediates/cmake/debug/obj/armeabi-v7a/libbaresipwrapper.so",
+			"toolchain" : "6346681606372250272"
+		},
+		"libavcodec-Debug-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "libavcodec",
+			"buildType" : "debug",
+			"output" : "/Users/caominhvu/Desktop/Demo/AndroidBaresipDemo/baresiplib/src/main/cpp/ffmpeg/lib/libavcodec.a",
+			"toolchain" : "6346681606372250272"
+		},
+		"libavdevice-Debug-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "libavdevice",
+			"buildType" : "debug",
+			"output" : "/Users/caominhvu/Desktop/Demo/AndroidBaresipDemo/baresiplib/src/main/cpp/ffmpeg/lib/libavdevice.a",
+			"toolchain" : "6346681606372250272"
+		},
+		"libavfilter-Debug-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "libavfilter",
+			"buildType" : "debug",
+			"output" : "/Users/caominhvu/Desktop/Demo/AndroidBaresipDemo/baresiplib/src/main/cpp/ffmpeg/lib/libavfilter.a",
+			"toolchain" : "6346681606372250272"
+		},
+		"libavformat-Debug-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "libavformat",
+			"buildType" : "debug",
+			"output" : "/Users/caominhvu/Desktop/Demo/AndroidBaresipDemo/baresiplib/src/main/cpp/ffmpeg/lib/libavformat.a",
+			"toolchain" : "6346681606372250272"
+		},
+		"libavutil-Debug-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "libavutil",
+			"buildType" : "debug",
+			"output" : "/Users/caominhvu/Desktop/Demo/AndroidBaresipDemo/baresiplib/src/main/cpp/ffmpeg/lib/libavutil.a",
+			"toolchain" : "6346681606372250272"
+		},
+		"libbaresip-Debug-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "libbaresip",
+			"buildType" : "debug",
+			"output" : "/Users/caominhvu/Desktop/Demo/AndroidBaresipDemo/baresiplib/src/main/cpp/baresip/lib/libbaresip.a",
+			"toolchain" : "6346681606372250272"
+		},
+		"libbn-Debug-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "libbn",
+			"buildType" : "debug",
+			"output" : "/Users/caominhvu/Desktop/Demo/AndroidBaresipDemo/baresiplib/src/main/cpp/zrtp/lib/libbn.a",
+			"toolchain" : "6346681606372250272"
+		},
+		"libcrypto-Debug-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "libcrypto",
+			"buildType" : "debug",
+			"output" : "/Users/caominhvu/Desktop/Demo/AndroidBaresipDemo/baresiplib/src/main/cpp/openssl/lib/libcrypto.a",
+			"toolchain" : "6346681606372250272"
+		},
+		"libre-Debug-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "libre",
+			"buildType" : "debug",
+			"output" : "/Users/caominhvu/Desktop/Demo/AndroidBaresipDemo/baresiplib/src/main/cpp/re/lib/libre.a",
+			"toolchain" : "6346681606372250272"
+		},
+		"librem-Debug-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "librem",
+			"buildType" : "debug",
+			"output" : "/Users/caominhvu/Desktop/Demo/AndroidBaresipDemo/baresiplib/src/main/cpp/rem/lib/librem.a",
+			"toolchain" : "6346681606372250272"
+		},
+		"libscalerarm-Debug-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "libscalerarm",
+			"buildType" : "debug",
+			"output" : "/Users/caominhvu/Desktop/Demo/AndroidBaresipDemo/baresiplib/src/main/cpp/scalerarm/lib/libscalerarm.a",
+			"toolchain" : "6346681606372250272"
+		},
+		"libspeexdsp-Debug-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "libspeexdsp",
+			"buildType" : "debug",
+			"output" : "/Users/caominhvu/Desktop/Demo/AndroidBaresipDemo/baresiplib/src/main/cpp/speexdsp/lib/libspeexdsp.a",
+			"toolchain" : "6346681606372250272"
+		},
+		"libssl-Debug-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "libssl",
+			"buildType" : "debug",
+			"output" : "/Users/caominhvu/Desktop/Demo/AndroidBaresipDemo/baresiplib/src/main/cpp/openssl/lib/libssl.a",
+			"toolchain" : "6346681606372250272"
+		},
+		"libswresample-Debug-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "libswresample",
+			"buildType" : "debug",
+			"output" : "/Users/caominhvu/Desktop/Demo/AndroidBaresipDemo/baresiplib/src/main/cpp/ffmpeg/lib/libswresample.a",
+			"toolchain" : "6346681606372250272"
+		},
+		"libswscale-Debug-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "libswscale",
+			"buildType" : "debug",
+			"output" : "/Users/caominhvu/Desktop/Demo/AndroidBaresipDemo/baresiplib/src/main/cpp/ffmpeg/lib/libswscale.a",
+			"toolchain" : "6346681606372250272"
+		},
+		"libx264-Debug-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "libx264",
+			"buildType" : "debug",
+			"output" : "/Users/caominhvu/Desktop/Demo/AndroidBaresipDemo/baresiplib/src/main/cpp/x264/lib/libx264.a",
+			"toolchain" : "6346681606372250272"
+		},
+		"libzrtp-Debug-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "libzrtp",
+			"buildType" : "debug",
+			"output" : "/Users/caominhvu/Desktop/Demo/AndroidBaresipDemo/baresiplib/src/main/cpp/zrtp/lib/libzrtp.a",
+			"toolchain" : "6346681606372250272"
+		}
+	},
+	"toolchains" : 
+	{
+		"6346681606372250272" : 
+		{
+			"cCompilerExecutable" : "/Users/caominhvu/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang",
+			"cppCompilerExecutable" : "/Users/caominhvu/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++"
+		}
+	}
+}

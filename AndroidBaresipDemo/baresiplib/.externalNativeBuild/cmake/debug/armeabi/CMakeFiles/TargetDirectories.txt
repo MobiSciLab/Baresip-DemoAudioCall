@@ -1,0 +1,3 @@
+/Users/caominhvu/Desktop/Demo/AndroidBaresipDemo/baresiplib/.externalNativeBuild/cmake/debug/armeabi/CMakeFiles/edit_cache.dir
+/Users/caominhvu/Desktop/Demo/AndroidBaresipDemo/baresiplib/.externalNativeBuild/cmake/debug/armeabi/CMakeFiles/rebuild_cache.dir
+/Users/caominhvu/Desktop/Demo/AndroidBaresipDemo/baresiplib/.externalNativeBuild/cmake/debug/armeabi/CMakeFiles/baresipwrapper.dir

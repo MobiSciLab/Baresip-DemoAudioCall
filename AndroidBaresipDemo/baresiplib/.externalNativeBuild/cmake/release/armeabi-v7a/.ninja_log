@@ -1,0 +1,5 @@
+# ninja log v5
+1	245	0	CMakeFiles/baresipwrapper.dir/src/main/cpp/baresipwrapper.c.o	26b3276a44d0650d
+0	256	0	CMakeFiles/baresipwrapper.dir/src/main/cpp/baresip_helper.c.o	19a4867ec275cd3a
+256	2225	0	../../../../build/intermediates/cmake/release/obj/armeabi-v7a/libbaresipwrapper.so	d23f24d1bffbe48f
+1	1838	0	../../../../build/intermediates/cmake/release/obj/armeabi-v7a/libbaresipwrapper.so	d23f24d1bffbe48f

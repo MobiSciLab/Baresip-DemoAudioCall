@@ -1,0 +1,36 @@
+src/mlp_data.lo: src/mlp_data.c config.h src/mlp.h celt/arch.h \
+ include/opus_types.h \
+ /Users/caominhvu/Library/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/include/stdint.h \
+ /Users/caominhvu/Library/Android/sdk/ndk-bundle/platforms/android-17/arch-arm/usr/include/stdint.h \
+ /Users/caominhvu/Library/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/include/stddef.h \
+ /Users/caominhvu/Library/Android/sdk/ndk-bundle/platforms/android-17/arch-arm/usr/include/sys/_types.h \
+ /Users/caominhvu/Library/Android/sdk/ndk-bundle/platforms/android-17/arch-arm/usr/include/machine/_types.h \
+ /Users/caominhvu/Library/Android/sdk/ndk-bundle/platforms/android-17/arch-arm/usr/include/sys/_wchar_limits.h \
+ /Users/caominhvu/Library/Android/sdk/ndk-bundle/platforms/android-17/arch-arm/usr/include/android/api-level.h \
+ include/opus_defines.h include/opus_types.h
+
+config.h:
+
+src/mlp.h:
+
+celt/arch.h:
+
+include/opus_types.h:
+
+/Users/caominhvu/Library/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/include/stdint.h:
+
+/Users/caominhvu/Library/Android/sdk/ndk-bundle/platforms/android-17/arch-arm/usr/include/stdint.h:
+
+/Users/caominhvu/Library/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/include/stddef.h:
+
+/Users/caominhvu/Library/Android/sdk/ndk-bundle/platforms/android-17/arch-arm/usr/include/sys/_types.h:
+
+/Users/caominhvu/Library/Android/sdk/ndk-bundle/platforms/android-17/arch-arm/usr/include/machine/_types.h:
+
+/Users/caominhvu/Library/Android/sdk/ndk-bundle/platforms/android-17/arch-arm/usr/include/sys/_wchar_limits.h:
+
+/Users/caominhvu/Library/Android/sdk/ndk-bundle/platforms/android-17/arch-arm/usr/include/android/api-level.h:
+
+include/opus_defines.h:
+
+include/opus_types.h:
